@@ -1,0 +1,53 @@
+site_name: The Idea Vault
+site_url: https://sitename.example
+theme:
+  name: material
+  font:
+    text: Sofia Sans
+    code: JetBrains Mono
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+  # Dark Mode
+  - scheme: slate
+    toggle:
+      icon: material/weather-sunny
+      name: Dark Mode
+    primary: blue
+    accent: light blue
+
+  # Light Mode
+  - scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Light Mode
+    primary: blue
+    accent: light blue
+  features:
+    - navigation.footer
+    - content.footnote.tooltips
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - footnotes
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RafanHRayan
+
+copyright: Copyright &copy; 2025 Rafan H. Rayan
