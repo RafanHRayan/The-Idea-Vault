@@ -1,6 +1,9 @@
 site_name: The Idea Vault
+site_url: https://sitename.example
+
 repo_name: RafanHRayan/The-Idea-Vault
 repo_url: https://github.com/RafanHRayan/The-Idea-Vault
+
 theme:
   name: material
   font:
@@ -16,7 +19,6 @@ theme:
       name: Dark Mode
     primary: blue
     accent: light blue
-
   # Light Mode
   - scheme: default
     toggle:
