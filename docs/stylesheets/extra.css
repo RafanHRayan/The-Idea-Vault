@@ -4,6 +4,7 @@
   --md-accent-bg-color:         #ffffff !important; /* Text color over accent fg */
 }
 
+/* Links */
 .md-typeset a {
   color: #4d80e6 !important;
 }
@@ -11,6 +12,26 @@
   color: #ffffff !important;
 }
 
+/* Tabs CSS */
+.md-tabs__item--active {
+  position: relative;
+}
+.md-tabs__item--active .md-tabs__link {
+  color: var(--md-accent-fg-color, #2094f3); /* Fallback to standard Material blue */
+  opacity: 1; /* Overrides default MkDocs text opacity transparency */
+}
+.md-tabs__item--active .md-tabs__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px; /* Thickness of the bar */
+  background-color: var(--md-accent-fg-color, #2094f3); /* Matches the blue text color */
+  border-radius: 2px;
+}
+
+/* Button CSS */
 .md-typeset .md-button {
     width: 100%;
     padding-left: 13px;
@@ -20,6 +41,7 @@
     border-radius: 0.4rem;
 }
 
+/* Admonition CSS */
 .md-typeset .admonition, 
 .md-typeset details.admonition {
     border-width: 2px;

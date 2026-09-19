@@ -77,6 +77,11 @@ nav:
   - Mathematics:
     - mathematics/index.md
     - Fundamental:
+      - Algebra I:
+        - mathematics/fundamental/algebra1/index.md
       - Geometry:
         - mathematics/fundamental/geometry/index.md
         - Logic: mathematics/fundamental/geometry/01_logic.md
+    - Advanced:
+      - Algebra II:
+        - mathematics/advanced/algebra2/index.md
