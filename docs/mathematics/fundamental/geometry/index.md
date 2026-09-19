@@ -1,4 +1,8 @@
-# Geometry
+---
+icon: material/math-compass
+---
+
+# :material-math-compass: Geometry
 
 ## Unit 1 — Logic
 
