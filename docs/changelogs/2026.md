@@ -1,0 +1,5 @@
+---
+icon: fontawesome/solid/scroll
+---
+
+# Changes in 2026

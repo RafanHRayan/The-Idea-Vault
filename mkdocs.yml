@@ -29,6 +29,14 @@ theme:
     - content.code.copy
     - content.footnote.tooltips
 
+nav:
+  - Home: home.md
+  - Reference: ref.md
+  - Changelog:
+    - 2026 Changelog: changelogs/2026.md
+    - Past Changelogs:
+      - 2025 Changelog: changelogs/2025.md
+
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
@@ -46,6 +54,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - footnotes
+  - toc:
+      toc_depth: 5
 
 extra:
   social:
