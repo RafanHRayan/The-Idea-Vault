@@ -7,7 +7,7 @@ repo_url: https://github.com/RafanHRayan/The-Idea-Vault
 theme:
   name: material
   font:
-    text: Sofia Sans
+    text: Inclusive Sans #IBM Plex Sans
     code: JetBrains Mono
   logo: assets/logo.png
   favicon: assets/logo.png
@@ -17,27 +17,24 @@ theme:
     toggle:
       icon: material/weather-sunny
       name: Dark Mode
-    primary: blue
-    accent: light blue
+    primary: black
+    accent: blue
   # Light Mode
   - scheme: default
     toggle:
       icon: material/weather-night
       name: Light Mode
-    primary: blue
-    accent: light blue
+    primary: white
+    accent: blue
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
     - navigation.footer
     - content.code.copy
     - content.footnote.tooltips
-
-nav:
-  - Home: home.md
-  - Reference: ref.md
-  - Changelog:
-    - 2026 Changelog: changelogs/2026.md
-    - Past Changelogs:
-      - 2025 Changelog: changelogs/2025.md
+    - content.tooltips
 
 markdown_extensions:
   - attr_list
@@ -58,6 +55,8 @@ markdown_extensions:
   - footnotes
   - toc:
       toc_depth: 5
+  - abbr
+  - md_in_html
 
 extra:
   social:
@@ -65,3 +64,18 @@ extra:
       link: https://github.com/RafanHRayan
 
 copyright: Copyright &copy; 2025 Rafan H. Rayan
+
+nav:
+  - Home:
+    - index.md
+    - Reference: ref.md
+    - Changelog:
+        - changelogs/index.md
+        - Past Changelogs:
+          - 2025 Changelog: changelogs/past-changelogs/2025.md
+  - Mathematics:
+    - mathematics/index.md
+    - Fundamental:
+      - Geometry:
+        - mathematics/fundamental/geometry/index.md
+        - Logic: mathematics/fundamental/geometry/01_logic.md
