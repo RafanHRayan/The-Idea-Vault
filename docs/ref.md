@@ -1,7 +1,3 @@
----
-icon: material/book/open/variant
----
-
 # Mkdocs Reference Stuff
 
 For full documentation visit :material-link:[mkdocs.org](https://www.mkdocs.org).
