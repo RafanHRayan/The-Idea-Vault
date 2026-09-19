@@ -1,4 +1,4 @@
-Welcome to The Idea Vault! This site is a hub filled willed different subjects to learn from both humanities and STEM[^1].
+Welcome to The Idea Vault! This site is a hub filled willed different subjects to learn from both humanities and STEM[^1]. Use the buttons below to access each subject...
 
 [^1]: This site, though well rounded, features more detailed information and a more vast range of subjects than in humanities.
 
