@@ -8,7 +8,7 @@ icon: material/math-compass
 
 Statements, logical connectives, and proofs.
 
-[Learn More](mathematics/fundamental/geometry/01_logic.md){: .md-button }
+[:material-information: Learn More](../geometry/01_logic.md){ .md-button }
 
 !!! note
     Logic is not *technically* a part of Euclidean geometry, but logical thinking is important for proving different geometrical theorems.
@@ -20,7 +20,7 @@ Statements, logical connectives, and proofs.
 
 Fundamental postulates, definitions, and theorems of Euclidean geometry.
 
-[Learn More](mathematics/fundamental/geoemtry/01_logic.md){: .md-button }
+[:material-information: Learn More](../geometry/01_logic.md){ .md-button }
 
 ---
 
@@ -28,4 +28,4 @@ Fundamental postulates, definitions, and theorems of Euclidean geometry.
 
 ???
 
-[Learn More](mathematics/fundamental/geoemtry/01_logic.md){: .md-button }
+[:material-information: Learn More](../geometry/01_logic.md){ .md-button }

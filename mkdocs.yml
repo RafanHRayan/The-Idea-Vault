@@ -4,6 +4,9 @@ site_url: https://sitename.example
 repo_name: RafanHRayan/The-Idea-Vault
 repo_url: https://github.com/RafanHRayan/The-Idea-Vault
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   font:
@@ -16,16 +19,16 @@ theme:
   - scheme: slate
     toggle:
       icon: material/weather-sunny
-      name: Dark Mode
+      name: Switch to light mode
     primary: black
-    accent: blue
+    accent: custom
   # Light Mode
   - scheme: default
     toggle:
       icon: material/weather-night
-      name: Light Mode
+      name: Switch to dark mode
     primary: white
-    accent: blue
+    accent: custom
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -62,9 +65,6 @@ extra:
       link: https://github.com/RafanHRayan
 
 copyright: Copyright &copy; 2025 Rafan H. Rayan
-
-extra_css:
-  - stylesheets/extra.css
 
 nav:
   - Home:
