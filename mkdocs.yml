@@ -4,9 +4,6 @@ site_url: https://sitename.example
 repo_name: RafanHRayan/The-Idea-Vault
 repo_url: https://github.com/RafanHRayan/The-Idea-Vault
 
-extra_css:
-  - stylesheets/extra.css
-
 theme:
   name: material
   font:
@@ -58,6 +55,8 @@ markdown_extensions:
   - toc:
       toc_depth: 5
   - abbr
+  - pymdownx.arithmatex:
+      generic: true
 
 copyright: Copyright &copy; 2025 Rafan H. Rayan
 
@@ -66,6 +65,14 @@ extra:
     new: New Page
     upcoming: Upcoming Content
     unfinished: Work In Progress
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+extra_css:
+  - stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 nav:
   - Home:
