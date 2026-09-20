@@ -57,6 +57,16 @@ markdown_extensions:
   - abbr
   - pymdownx.arithmatex:
       generic: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - tables
+  - md_in_html
+  - pymdownx.blocks.caption
 
 copyright: Copyright &copy; 2025 Rafan H. Rayan
 

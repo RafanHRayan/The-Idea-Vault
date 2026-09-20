@@ -6,22 +6,30 @@ status: unfinished
 
 For full documentation visit [:material-link:mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+??? info "Commands"
+    * `mkdocs new [dir-name]` - Create a new project.
+    * `mkdocs serve` - Start the live-reloading docs server.
+    * `mkdocs build` - Build the documentation site.
+    * `mkdocs -h` - Print help message and exit.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
+## Code Blocks
 
 ```py title="addition.py" linenums="1" hl_lines="3"
 a = 3
 b = 12
 print(a+b)
 ```
+## Lists
 
-Cool stuff we can do!!!
+- Hi
+- Hello
+- Salutations
+
+hi
+
+1. one thing
+2. another thing
+3. third thing
 
 ## Content Tabs
 
@@ -41,3 +49,9 @@ Cool stuff we can do!!!
 
 ??? info "This note has a name..."
     ...and can be collapsed and expanded at will.
+
+==I can highlight things!!!==
+
+Keyboard keys too! Press ++cmd+k++ to open search.
+
+~Subscripts~ and ^superscripts^??
