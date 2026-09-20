@@ -35,6 +35,9 @@ theme:
     - content.footnote.tooltips
     - content.tooltips
 
+plugins:
+  - glightbox
+
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:

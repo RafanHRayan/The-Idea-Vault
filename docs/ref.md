@@ -55,3 +55,8 @@ hi
 Keyboard keys too! Press ++cmd+k++ to open search.
 
 ~Subscripts~ and ^superscripts^??
+
+<figure markdown="span">
+  ![Image title](https://dummyimage.com/600x400/){ width="300" }
+  <figcaption><strong>Figure 1.</strong> A cool placeholder image.</figcaption>
+</figure>
