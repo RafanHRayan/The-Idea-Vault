@@ -59,11 +59,6 @@ markdown_extensions:
       toc_depth: 5
   - abbr
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/RafanHRayan
-
 copyright: Copyright &copy; 2025 Rafan H. Rayan
 
 nav:
@@ -85,3 +80,5 @@ nav:
     - Advanced:
       - Algebra II:
         - mathematics/advanced/algebra2/index.md
+      - Statistics:
+        - mathematics/advanced/statistics/index.md
