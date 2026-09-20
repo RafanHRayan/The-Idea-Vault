@@ -1,9 +1,9 @@
 ---
-icon: material/chart-line
+icon: material/triangle-outline
 status: upcoming
 ---
 
-# :material-chart-line: Statistics
+# :material-triangle-outline: Trigonometry
 
 ## Unit ? — ???
 

@@ -1,5 +1,6 @@
 ---
 icon: material/math-compass
+status: unfinished
 ---
 
 # :material-math-compass: Geometry

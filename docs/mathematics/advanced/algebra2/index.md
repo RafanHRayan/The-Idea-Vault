@@ -1,5 +1,6 @@
 ---
 icon: material/square-root
+status: upcoming
 ---
 
 # :material-square-root: Algebra II

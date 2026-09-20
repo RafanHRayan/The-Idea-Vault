@@ -48,3 +48,31 @@
     border-radius: 0.4rem;
     overflow: hidden;
 }
+
+/* Pill Tags CSS */
+.md-nav__link .md-status {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.25em 0.5em;
+  margin-left: 0.5rem;
+  border-radius: 10rem; /* Creates the pill shape */
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.md-nav__link .md-status--new {
+  background-color: #215318; /* Green */
+  color: #44c02e;
+}
+
+.md-nav__link .md-status--upcoming {
+  background-color: #183353; /* Blue */
+  color: #7dbcff;
+}
+
+.md-nav__link .md-status--unfinished {
+  background-color: #4f2423; /* Red */
+  color: #fb9891;
+}

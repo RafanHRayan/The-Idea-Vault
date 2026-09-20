@@ -61,6 +61,12 @@ markdown_extensions:
 
 copyright: Copyright &copy; 2025 Rafan H. Rayan
 
+extra:
+  status:
+    new: New Content
+    upcoming: Upcoming Content
+    unfinished: Unfinished Content
+
 nav:
   - Home:
     - index.md
@@ -77,6 +83,8 @@ nav:
       - Geometry:
         - mathematics/fundamental/geometry/index.md
         - Logic: mathematics/fundamental/geometry/01_logic.md
+      - Trigonometry:
+        - mathematics/fundamental/trigonometry/index.md
     - Advanced:
       - Algebra II:
         - mathematics/advanced/algebra2/index.md
