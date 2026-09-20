@@ -68,16 +68,13 @@
 }
 
 .md-nav__link .md-status--new {
-  background-color: #215318; /* Green */
-  color: #44c02e;
+  color: #44c02e !important;
 }
 
 .md-nav__link .md-status--upcoming {
-  background-color: #183353; /* Blue */
-  color: #7dbcff;
+  color: #b8daff !important;
 }
 
 .md-nav__link .md-status--unfinished {
-  background-color: #4f2423; /* Red */
-  color: #fb9891;
+  color: #fb9891 !important;
 }

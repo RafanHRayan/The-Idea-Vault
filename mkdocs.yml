@@ -63,9 +63,9 @@ copyright: Copyright &copy; 2025 Rafan H. Rayan
 
 extra:
   status:
-    new: New Content
+    new: New Page
     upcoming: Upcoming Content
-    unfinished: Unfinished Content
+    unfinished: Work In Progress
 
 nav:
   - Home:
